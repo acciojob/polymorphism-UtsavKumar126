@@ -5,9 +5,9 @@ public class Main {
 
         Product p=new Product();
 
-        int a=p.product(5,6);
-        int b=p.product(5,6,7);
-        double c=p.product(5.0,6.0);
+        System.out.println(p.product(5,6));
+        System.out.println(p.product(5,6,7));
+        System.out.println(p.product(5.0,6.0));
 }
 
 }
